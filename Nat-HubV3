@@ -111,6 +111,7 @@ local request = http_request or request or (syn and syn.request) or (fluxus and 
 ["Dreadbound"] = { priority = 39, emoji = "🚀", isMutation = true },
 ["Soulflame"] = { priority = 40, emoji = "🚀", isMutation = true },
 ["Oxpecker"] = { priority = 41, emoji = "🚀", isMutation = true },
+["Hyper Hunger"] = { priority = 42, emoji = "🚀", isMutation = true },
             }
 
         local function detectExecutor()
@@ -754,6 +755,11 @@ local PetWhitelist = {
    ["Ghostly Spider"] = true,
    ["Ghostly Headless Horseman"] = true,
 ["Echo Frog"] = true,
+["Rainbow Frost Dragon"] = true,
+["Ice Golem"] = true,
+["Festive Ice Golem"] = true,
+["Festive Yeti"] = true,
+["Festive Reindeer"] = true,
    
    
 }
